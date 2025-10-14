@@ -62,7 +62,7 @@ Git
 Installation & Setup
 Clone the repository:
 
- ##Bash
+ ## Bash
 
 git clone https://github.com/your-username/Krishi-Sakhi-WebApp.git
 cd Krishi-Sakhi-WebApp
@@ -98,4 +98,5 @@ python app.py
 Open your web browser and navigate to http://127.0.0.1:5000.
 
 #
+
 
