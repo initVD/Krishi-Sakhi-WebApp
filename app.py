@@ -16,8 +16,8 @@ app.secret_key = 'a-very-long-and-random-secret-key-that-you-should-change'
 
 # --- API KEY CONFIGURATION ---
 # IMPORTANT: PASTE YOUR API KEYS HERE
-WEATHER_API_KEY = 'b7436ed9d1c47754b0e419a769bad447'
-GEMINI_API_KEY = 'AIzaSyCNHUrskqEpzCdqf5Lmt_z54gds6Hb9Uqk'
+WEATHER_API_KEY = 'your api key'
+GEMINI_API_KEY = 'your api key'
 
 if GEMINI_API_KEY and 'YOUR_GEMINI_API_KEY' not in GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
